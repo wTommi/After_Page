@@ -57,7 +57,7 @@ body {
   width: 60px;
   height: 7px;
   border-radius: 10px;
-  background-color: #d4a017; /* Slightly darker yellow for better contrast */
+  background-color: #f8bc1a;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -188,8 +188,8 @@ a:focus {
 }
 
 .navbar-brand img {
-  width: auto;
-  height: 35px; /* Maintain consistent height */
+  width: 35px;
+  margin-right: 5px;
 }
 
 .navbar-brand span {
@@ -246,12 +246,12 @@ a:focus {
 .slider_section .detail-box h1 {
   font-size: 4rem;
   font-weight: bold;
-  color: #f0f0f0; /* Slightly lighter white for better contrast */
+  color: #ffffff; /* White text for better contrast */
   text-transform: uppercase;
 }
 
 .slider_section .detail-box p {
-  color: #cccccc; /* Lighter gray for better contrast */
+  color: #e0e0e0; /* Lighter text for better contrast */
 }
 
 .slider_section .detail-box .btn-box {
@@ -273,8 +273,8 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-1 {
   display: inline-block;
   padding: 7px 0;
-  background-color: #004a99; /* Darker blue for better contrast */
-  border: 1px solid #004a99;
+  background-color: #0056b3; /* Darker blue for better contrast */
+  border: 1px solid #0056b3;
   color: #ffffff; /* White text */
 }
 
@@ -286,8 +286,8 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-2 {
   display: inline-block;
   padding: 7px 0;
-  background-color: #222222; /* Darker gray for better contrast */
-  border: 1px solid #222222;
+  background-color: #333333; /* Darker gray for better contrast */
+  border: 1px solid #333333;
   color: #ffffff; /* White text */
 }
 
@@ -501,7 +501,7 @@ a:focus {
 }
 
 .us_section {
-  background-color: #2e0b5c; /* Slightly darker purple for better contrast */
+  background-color: #3c0e78;
   color: #ffffff;
 }
 
@@ -858,7 +858,7 @@ a:focus {
 }
 
 .info_section ul li a {
-  color: #b3b3b3; /* Lighter gray for better contrast */
+  color: #cccccc; /* Lighter text for better contrast */
 }
 
 .info_section ul li a:hover {

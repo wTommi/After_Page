@@ -57,7 +57,7 @@ body {
   width: 60px;
   height: 7px;
   border-radius: 10px;
-  background-color: #f8bc1a;
+  background-color: #d4a017; /* Slightly darker yellow for better contrast */
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -105,7 +105,7 @@ body {
 
 .custom_nav-container .contact_nav .nav-item .nav-link {
   padding: 0px 25px;
-  color: #000000;
+  color: #333333; /* Darker text for better contrast */
   text-align: center;
 }
 
@@ -127,13 +127,14 @@ body {
 
 .custom_nav2 .navbar-expand-lg .navbar-nav .nav-item .nav-link {
   padding: 10px 30px;
-  color: #070101;
+  color: #333333; /* Darker text for better contrast */
   text-align: center;
   position: relative;
 }
 
-.custom_nav2 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .custom_nav2 .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
-  color: #ffffff;
+.custom_nav2 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link, 
+.custom_nav2 .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
+  color: #ffffff; /* White text for better contrast */
 }
 
 .custom_nav2 #navbarSupportedContent {
@@ -146,6 +147,7 @@ a,
 a:hover,
 a:focus {
   text-decoration: none;
+  color: #0056b3; /* Darker blue for better contrast */
 }
 
 a:hover,
@@ -186,8 +188,8 @@ a:focus {
 }
 
 .navbar-brand img {
-  width: 35px;
-  margin-right: 5px;
+  width: auto;
+  height: 35px; /* Maintain consistent height */
 }
 
 .navbar-brand span {
@@ -244,12 +246,12 @@ a:focus {
 .slider_section .detail-box h1 {
   font-size: 4rem;
   font-weight: bold;
-  color: #f4f3f3;
+  color: #f0f0f0; /* Slightly lighter white for better contrast */
   text-transform: uppercase;
 }
 
 .slider_section .detail-box p {
-  color: #ffffff;
+  color: #cccccc; /* Lighter gray for better contrast */
 }
 
 .slider_section .detail-box .btn-box {
@@ -271,27 +273,27 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-1 {
   display: inline-block;
   padding: 7px 0;
-  background-color: #f8bc1a;
-  border: 1px solid #f8bc1a;
-  color: #ffffff;
+  background-color: #004a99; /* Darker blue for better contrast */
+  border: 1px solid #004a99;
+  color: #ffffff; /* White text */
 }
 
 .slider_section .detail-box .btn-box .btn-1:hover {
   background-color: transparent;
-  color: #f8bc1a;
+  color: #0056b3; /* Darker blue for better contrast */
 }
 
 .slider_section .detail-box .btn-box .btn-2 {
   display: inline-block;
   padding: 7px 0;
-  background-color: #f4f3f3;
-  border: 1px solid #f4f3f3;
-  color: #020000;
+  background-color: #222222; /* Darker gray for better contrast */
+  border: 1px solid #222222;
+  color: #ffffff; /* White text */
 }
 
 .slider_section .detail-box .btn-box .btn-2:hover {
   background-color: transparent;
-  color: #f4f3f3;
+  color: #333333; /* Darker gray for better contrast */
 }
 
 .slider_section .carousel-indicators {
@@ -499,7 +501,7 @@ a:focus {
 }
 
 .us_section {
-  background-color: #3c0e78;
+  background-color: #2e0b5c; /* Slightly darker purple for better contrast */
   color: #ffffff;
 }
 
@@ -843,7 +845,7 @@ a:focus {
 }
 
 .info_section p {
-  color: #cbc9c9;
+  color: #e0e0e0; /* Lighter text for better contrast */
 }
 
 .info_section ul {
@@ -856,11 +858,11 @@ a:focus {
 }
 
 .info_section ul li a {
-  color: #cbc9c9;
+  color: #b3b3b3; /* Lighter gray for better contrast */
 }
 
 .info_section ul li a:hover {
-  color: #ffffff;
+  color: #ffffff; /* White text for better contrast */
 }
 
 .info_section .info_link-box a {

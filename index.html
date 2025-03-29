@@ -58,6 +58,15 @@
       }
     </style>
     <link rel="preload" as="image" href="images/result-img.webp" />
+    <link rel="preload" as="image" href="images/hero-background.webp" />
+    <style>
+      /* Inline critical CSS for hero section */
+      .hero_area {
+        background-image: url("images/hero-background.webp");
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
   </head>
 
   <body>
@@ -67,7 +76,15 @@
         <div class="container">
           <nav class="navbar navbar-expand-lg custom_nav-container">
             <a class="navbar-brand" href="index.html">
-              <img src="images/logo.webp" alt="" />
+              <img
+                src="images/logo.webp"
+                srcset="
+                  images/logo-small.webp  480w,
+                  images/logo-large.webp 1024w
+                "
+                sizes="(max-width: 768px) 480px, 1024px"
+                alt="Energym Logo"
+              />
               <h1>Energym</h1>
             </a>
             <div class="contact_nav" id="">
@@ -284,7 +301,15 @@
         </div>
         <div class="box">
           <div class="img-box">
-            <img src="images/about-img.webp" alt="" />
+            <img
+              src="images/about-img.webp"
+              srcset="
+                images/about-img-small.webp  480w,
+                images/about-img-large.webp 1024w
+              "
+              sizes="(max-width: 768px) 480px, 1024px"
+              alt="About Energym"
+            />
           </div>
           <div class="detail-box">
             <p>
@@ -308,7 +333,13 @@
         </div>
         <div class="service_container">
           <div class="box">
-            <img src="images/s-1.webp" alt="" />
+            <img
+              src="images/s-1.webp"
+              srcset="images/s-1-small.webp 480w, images/s-1-large.webp 1024w"
+              sizes="(max-width: 768px) 480px, 1024px"
+              alt="Crossfit Training"
+              loading="lazy"
+            />
             <h6 class="visible_heading">CROSSFIT TRAINING</h6>
             <div class="link_box">
               <a href="">
@@ -318,7 +349,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="images/s-2.webp" alt="" />
+            <img src="images/s-2.webp" alt="" loading="lazy" />
             <h6 class="visible_heading">FITNESS</h6>
             <div class="link_box">
               <a href="">
@@ -328,7 +359,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="images/s-3.webp" alt="" />
+            <img src="images/s-3.webp" alt="" loading="lazy" />
             <h6 class="visible_heading">DYNAMIC STRENGTH TRAINING</h6>
             <div class="link_box">
               <a href="">
@@ -341,7 +372,7 @@
             </div>
           </div>
           <div class="box">
-            <img src="images/s-4.webp" alt="" />
+            <img src="images/s-4.webp" alt="" loading="lazy" />
             <h6 class="visible_heading">HEALTH</h6>
             <div class="link_box">
               <a href="">
@@ -525,7 +556,15 @@
         <div class="row">
           <div class="col-md-6 px-0">
             <div class="img-box">
-              <img src="images/result-img.webp" alt="" />
+              <img
+                src="images/result-img.webp"
+                srcset="
+                  images/result-img-small.webp  480w,
+                  images/result-img-large.webp 1024w
+                "
+                sizes="(max-width: 768px) 480px, 1024px"
+                alt="Result Section Image"
+              />
             </div>
           </div>
           <div class="col-lg-4 col-md-5">

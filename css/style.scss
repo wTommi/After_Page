@@ -98,7 +98,7 @@ body {
 
 .hero_area {
     height: 100vh;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../images/hero-bg.jpg);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../images/hero-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -203,7 +203,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn {
-    background-image: url(../images/search-icon-black.png);
+    background-image: url(../images/search-icon-black.webp);
     background-size: 18px;
     background-repeat: no-repeat;
     width: 35px;
@@ -214,7 +214,7 @@ a:focus {
     background-position: center;
 
     &:hover {
-        background-image: url(../images/search-icon.png);
+        background-image: url(../images/search-icon.webp);
     }
 }
 
@@ -245,7 +245,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
-    background-image: url(../images/menu.png);
+    background-image: url(../images/menu.webp);
     background-size: 42px;
 }
 
@@ -259,7 +259,7 @@ a:focus {
 
 .slider_section {
     height: calc(100% - 80px);
-    background-image: url(../images/slider-bg.jpg);
+    background-image: url(../images/slider-bg.webp);
     background-size: cover;
 
     .slider_container {

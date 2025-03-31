@@ -229,6 +229,13 @@ a:focus {
   width: 100%;
 }
 
+.slider_section .detail-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Ensures buttons stay at the bottom */
+  height: 100%; /* Makes the container take full height */
+}
+
 .slider_section .detail-box h2 {
   color: rgb(0, 86, 179);
 }
